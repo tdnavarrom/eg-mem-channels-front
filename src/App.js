@@ -195,7 +195,6 @@ function App() {
                 <TableCell>Id</TableCell>
                 <TableCell>Type</TableCell>
                 <TableCell>Name</TableCell>
-                <TableCell>Status</TableCell>
                 <TableCell>Created at</TableCell>
                 <TableCell>Updated at</TableCell>
                 <TableCell>Acciones</TableCell>
@@ -207,7 +206,6 @@ function App() {
                   <TableCell>{item.id}</TableCell>
                   <TableCell>{item.type}</TableCell>
                   <TableCell>{item.name}</TableCell>
-                  <TableCell>{item.status}</TableCell>
                   <TableCell>{item.created_at}</TableCell>
                   <TableCell>{item.updated_at}</TableCell>
                   <TableCell>
